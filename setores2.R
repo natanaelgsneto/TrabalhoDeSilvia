@@ -2,10 +2,9 @@ library(ggplot2)
 
 # Criar data frame
 df <- data.frame(
-  Escolas = c("ESTADUAL", "FEDERAL", "MILITAR", "MUNICIPAL"),
-  quantidade = c(12, 45, 4, 39)
+  Escolas = c("ESTADUAL", "FEDERAL", "MUNICIPAL", "PRISIONAL"),
+  quantidade = c(4, 1, 8, 1)
 )
-names(df)[names(df) == "Tiposdeescolas"] <- "Escolas"
 
 # Calcular porcentagem
 df$porcento <- round(df$quantidade / sum(df$quantidade) * 100)
