@@ -9,9 +9,9 @@ ggplot(df, aes(x = escolas, y = quantidade)) +
   geom_bar(stat = "identity", fill = "skyblue", color = "black", width = 0.6) +
   geom_text(aes(label = quantidade), vjust = -0.5, size = 5) +
   labs(
-    title = "Soma de Discentes por Escolas Período 2023.1",
-    x = "Tipos de Escolas",
-    y = "Frequência das Discentes"
+    title = "Quantidade de salas de recursos por escolas no Período 2023.1",
+    x = "Escolas",
+    y = "Frequência de salas de recursos"
   ) +
   scale_y_continuous(limits = c(0, 6), expand = c(0, 0)) +
   theme_minimal() +
