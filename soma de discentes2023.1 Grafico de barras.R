@@ -19,4 +19,4 @@ ggplot(df, aes(x = escolas, y = quantidade)) +
     plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
     axis.title.x = element_text(size = 13, face = "bold"),
     axis.title.y = element_text(size = 13, face = "bold")
-  )//
+  )
