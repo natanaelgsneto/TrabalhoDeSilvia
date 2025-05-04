@@ -13,7 +13,7 @@ ggplot(df, aes(x = fruta, y = quantidade)) +
   geom_bar(stat = "identity", fill = "skyblue", color = "black") +
   geom_text(aes(label = quantidade), vjust = -0.5, size = 4) +
   labs(
-    title = "Soma de Discentes por Escolas",
+    title = "Soma de Discentes por Escolas do Periodo 2023.2",
     x = "Tipos de Escolas",
     y = "Frequência das Discentes"
   ) +
